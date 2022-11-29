@@ -162,7 +162,7 @@ export default function Home({ initialUsers }) {
                     </Button.Content>
                   </Button>
 
-                  <Button
+                  {/* <Button
                     animated="fade"
                     color="red"
                     onClick={async () => {
@@ -174,7 +174,7 @@ export default function Home({ initialUsers }) {
                     <Button.Content hidden>
                       <Icon name="user delete" />
                     </Button.Content>
-                  </Button>
+                  </Button> */}
                 </Table.Cell>
               </Table.Row>
             ))}
